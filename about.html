@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    h2{
+        text-align: center;
+        background-color:white;
+;
+        color:black;
+    }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+    background-color:#EC7063 ;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+    background-color:#EC7063 ;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color:#283747;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: black;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: black;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>Somacode Class</h1>
+  <p>Write About our zoom class here.</p>
+  <p>Andika what you have learned so far hapa</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Erick_Sermon_%289288240438%292.jpg/1200px-Erick_Sermon_%289288240438%292.jpg" alt="Jane" style="width:25%">
+      <div class="container">
+        <h2>Erick</h2>
+        <p class="title">Teacher& Founder</p>
+        <p>Our Teacher</p>
+        <p>erick@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://th.bing.com/th/id/OIP.AoJcmS7hOj-N8JXsMrLpgQHaE8?pid=Api&rs=1" alt="Mike" style="width:50%">
+      <div class="container">
+        <h2>Lisa</h2>
+        <p class="title">Class 6</p>
+        <p>Student</p>
+        <p>lisae@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+    <div class="column">
+    <div class="card">
+      <img src="https://th.bing.com/th/id/OIP.AoJcmS7hOj-N8JXsMrLpgQHaE8?pid=Api&rs=1" alt="Mike" style="width:50%">
+      <div class="container">
+        <h2>Allen</h2>
+        <p class="title">Class 6</p>
+        <p>Some text that describes me</p>
+        <p>lisae@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div> 
+    
+  <div class="column">
+    <div class="card">
+      <img src="https://th.bing.com/th/id/OIP.h82r6DD_L16dGGpV7pn1aAHaKb?w=179&h=252&c=7&o=5&pid=1.7" alt="John" style="width:25%">
+      <div class="container">
+        <h2>Ian</h2>
+        <p class="title">Designer</p>
+        <p>Our designer</p>
+        <p>ian@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+
+
+    <footer>
+    <h2>Copyright @ 2020 . Allen .All Rights Reserved</h2>
+    </footer>
+</html>
+
